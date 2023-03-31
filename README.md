@@ -1,6 +1,8 @@
 # YoloV8 User Interface
 This is a simple user interface for YOLOv8, a popular object detection system. The user can select a video or image file and a YOLO model file, and then run YOLO on the selected input using the specified model. The output of YOLO is displayed in the GUI window, along with a progress bar that updates as YOLO processes the input.
 
+![image](https://user-images.githubusercontent.com/75781464/229143183-3ed5c44f-aee6-44bf-b40d-4425a0fea452.png)
+
 # Installation
 To use this program, you will need to install Python 3 and several Python packages. You can do this using the following commands:
 

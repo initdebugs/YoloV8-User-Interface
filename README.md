@@ -31,6 +31,7 @@ Object detection models:
 | ------------------------ | ------------------------------------- |
 | TrafficDetection_8S  | [Google Drive](https://drive.google.com/file/d/1m80nfw0tL2YvvuuGHnY8sKSmQhPUNXbM/view?usp=sharing)  |
 | TrafficDetection_8L  | [Google Drive](https://drive.google.com/file/d/1LXTksK0M2R_JQQ6bXpetJWJl9neO4JC5/view?usp=sharing)  |
+| DollarBillDetection_8S | [Google Drive](https://drive.google.com/file/d/1VMpCFZ7lEf7ksPKyKSZbX5x--4ET_qHx/view?usp=sharing)|
 
 Segmenation models:
 | Model  | Link |
@@ -42,3 +43,5 @@ Models:
 TrafficDetection: The Traffic Detection model detects common traffic objects. Such as cars, trucks, pedestrians, common traffic signs, traffic lights. This model is trained on my own dataset. [Roboflow project](https://app.roboflow.com/lesley-natrop-zgywz/traffic-detection-e3og7/5)
 
 RoadSegmentation: The Road Detection model detects the road in dashcam videos and overlays it using Instance Segmentation. This model is trained on my own dataset. [Roboflow project](https://app.roboflow.com/lesley-natrop-zgywz/road-detection-segmentation/7)
+
+DollarBillDetection: 

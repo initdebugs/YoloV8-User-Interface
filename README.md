@@ -39,6 +39,6 @@ Segmenation models:
 
 Models:
 
-TrafficDetection: The Traffic Detection model detects common traffic objects. Such as cars, trucks, pedestrians, common traffic signs, traffic lights.
+TrafficDetection: The Traffic Detection model detects common traffic objects. Such as cars, trucks, pedestrians, common traffic signs, traffic lights. This model is trained on my own dataset. [Roboflow project](https://app.roboflow.com/lesley-natrop-zgywz/traffic-detection-e3og7/5)
 
-RoadSegmentation: The Road Detection model detects the road in dashcam videos and overlays it using Instance Segmentation.
+RoadSegmentation: The Road Detection model detects the road in dashcam videos and overlays it using Instance Segmentation. This model is trained on my own dataset. [Roboflow project](https://app.roboflow.com/lesley-natrop-zgywz/road-detection-segmentation/7)

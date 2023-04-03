@@ -12,9 +12,16 @@ To use this program, you will need to install Python 3 and several Python packag
 To run the program, simply run the main.py file:
 ```python main.py```
 
-Once the program is running, you can use the "Browse Video/Image" and "Browse Model" buttons to select the input video/image and the YOLO model file, respectively. You can also choose whether to use the GPU for processing and whether to show the output in a window using the checkboxes.
+Once the program is running, please select if you want to start a Training or Detection.
 
-To start processing, click the "Process" button. This will run YOLO on the selected input using the specified model. The output of YOLO will be displayed in the output window, and the progress bar will update as YOLO processes the input.
+Training:
+
+At first, select if you want to create an Object Detection model or a Segmentation model (remember to select the one fitting for your dataset and annotation format). Then, select the .yaml file for your dataset. Please choose which model size you want: s is smallest (faster training and interference, lowest accuracy), x is biggest (slower training and interference, highest accuracy). Also choose how many epochs you want to train. To start the training, press the Train button. This will run YOLO on the selected dataset with the provided parameters.
+
+Detection:
+
+At first, select if you want to do Object Detection or Segmentation (remember to use the correct model type). You can use the "Browse Video/Image" and "Browse Model" buttons to select the input video/image and the YOLO model file, respectively. You can also choose whether to use the GPU for processing and whether to show the output in a window using the checkboxes.
+To start processing, click the "Process" button. This will run YOLO on the selected input using the specified model.
 
 # Pretrained models
 This section shows a table of some models I trained myself using YoloV8. You can download these and use in the User Interface.

@@ -18,7 +18,20 @@ To start processing, click the "Process" button. This will run YOLO on the selec
 
 # Pretrained models
 This section shows a table of some models I trained myself using YoloV8. You can download these and use in the User Interface.
+
+Object detection models:
 | Model  | Link |
 | ------------------------ | ------------------------------------- |
-| TrafficDetection_8S - The Traffic Detection model detects common traffic objects. Such as cars, trucks, pedestrians, common traffic signs, traffic lights.   | [Google Drive](https://drive.google.com/file/d/1m80nfw0tL2YvvuuGHnY8sKSmQhPUNXbM/view?usp=sharing)  |
-| TrafficDetection_8L - The Traffic Detection model detects common traffic objects. Such as cars, trucks, pedestrians, common traffic signs, traffic lights.   | [Google Drive](https://drive.google.com/file/d/1LXTksK0M2R_JQQ6bXpetJWJl9neO4JC5/view?usp=sharing)  |
+| TrafficDetection_8S  | [Google Drive](https://drive.google.com/file/d/1m80nfw0tL2YvvuuGHnY8sKSmQhPUNXbM/view?usp=sharing)  |
+| TrafficDetection_8L  | [Google Drive](https://drive.google.com/file/d/1LXTksK0M2R_JQQ6bXpetJWJl9neO4JC5/view?usp=sharing)  |
+
+Segmenation models:
+| Model  | Link |
+| ------------------------ | ------------------------------------- |
+| RoadSegmentation_8S  | [Google Drive](https://drive.google.com/file/d/1WS3rS4DNaERCqwaHVQE7VD0nt3mt2lUi/view?usp=sharing)  |
+
+Models:
+
+TrafficDetection: The Traffic Detection model detects common traffic objects. Such as cars, trucks, pedestrians, common traffic signs, traffic lights.
+
+RoadSegmentation: The Road Detection model detects the road in dashcam videos and overlays it using Instance Segmentation.

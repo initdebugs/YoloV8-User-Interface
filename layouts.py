@@ -27,7 +27,7 @@ def detection_page_layout():
         [sg.Text('Extra options:'),sg.Listbox(['Hide labels', 'Hide confidence'], key='dropdown_options', size=(20, 2), select_mode=sg.LISTBOX_SELECT_MODE_MULTIPLE, enable_events=True)],
         [sg.Checkbox('Use GPU', key='gpu'), sg.Checkbox('Show', key='show')],
         [sg.Button('Process'), sg.Text('', key='status', size=(50, 1))],
-        [sg.ProgressBar(100, orientation='h', size=(40, 20), key='progress')],
+        [sg.ProgressBar(100, orientation='h', size=(40, 20), key='progress'), sg.Text('0%', key='progress_percentage', size=(5, 1))],
         [sg.Button('Back'), sg.Button('Cancel')]
     ]
     return layout

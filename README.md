@@ -44,4 +44,4 @@ TrafficDetection: The Traffic Detection model detects common traffic objects. Su
 
 RoadSegmentation: The Road Detection model detects the road in dashcam videos and overlays it using Instance Segmentation. This model is trained on my own dataset. [Roboflow project](https://app.roboflow.com/lesley-natrop-zgywz/road-detection-segmentation/7)
 
-DollarBillDetection: 
+DollarBillDetection: The Dollar Bill Detection model recognizes different American Dollar bills. This model is trained by me. I used the dataset created by [Alex Hyams](https://universe.roboflow.com/alex-hyams-cosqx) on Roboflow. [Roboflow Project](https://universe.roboflow.com/alex-hyams-cosqx/dollar-bill-detection)

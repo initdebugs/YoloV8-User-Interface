@@ -78,4 +78,6 @@ def handle_detection_page_events(event, values, window, yolo_thread, output_queu
             window['Process'].update(visible=True)
         else:
             print(line)  # This line will print the output to the console
-            update_progress(window, line)
+            progress = update_progress(window, line)
+            if progress is not None:
+                window['progress_percentage'].update(f'{progress}%')

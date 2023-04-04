@@ -45,7 +45,7 @@ def main():
 
     elif is_detection:
         detection_page = detection_page_layout()
-        window2 = sg.Window('YoloV8 User Interface - Detection', detection_page, finalize=True, size=(600, 220))
+        window2 = sg.Window('YoloV8 User Interface - Detection', detection_page, finalize=True, size=(600, 300))
 
         yolo_thread = None
         output_queue = queue.Queue()

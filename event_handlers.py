@@ -3,6 +3,7 @@ from threading import Thread
 import queue
 import re
 from yolo_functions import execute_yolo_command, update_progress
+import PySimpleGUI as sg
 
 def handle_first_page_events(event, values):
     is_training = False
@@ -22,6 +23,7 @@ def handle_training_page_events(event, values, window, yolo_thread, output_queue
 
         if not os.path.isfile(yaml_path):
             window['status'].update('Error: Invalid YAML path.')
+            sg.popup_error('Invalid YAML path. Please provide a valid YAML file.')
             return
 
         detection_type = 'segment' if values['segmentation'] else 'detect'
@@ -51,10 +53,12 @@ def handle_detection_page_events(event, values, window, yolo_thread, output_queu
 
         if not os.path.isfile(video_path):
             window['status'].update('Error: Invalid video/image path.')
+            sg.popup_error('Invalid video/image path. Please provide a valid video or image file.')
             return
 
         if not os.path.isfile(model_path):
             window['status'].update('Error: Invalid model path.')
+            sg.popup_error('Invalid model path. Please provide a valid model file.')
             return
 
         detection_mode = 'segment' if values['segmentation'] else 'detect'

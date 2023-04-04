@@ -24,5 +24,5 @@ def update_progress(window, line):
         current_frame, total_frames = int(match.group(1)), int(match.group(2))
         progress = int(current_frame / total_frames * 100)
         window['progress'].update(progress)
-        window['progress_percentage'].update(f'{progress}%')  # Update the percentage text element
-
+        if 'progress_percentage' in window.AllKeysDict:  # Check if the element exists before updating
+            window['progress_percentage'].update(f'{progress}%')  # Update the percentage text element

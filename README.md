@@ -32,6 +32,7 @@ Object detection models:
 | TrafficDetection_8S  | [Google Drive](https://drive.google.com/file/d/1m80nfw0tL2YvvuuGHnY8sKSmQhPUNXbM/view?usp=sharing)  |
 | TrafficDetection_8L  | [Google Drive](https://drive.google.com/file/d/1LXTksK0M2R_JQQ6bXpetJWJl9neO4JC5/view?usp=sharing)  |
 | DollarBillDetection_8S | [Google Drive](https://drive.google.com/file/d/1VMpCFZ7lEf7ksPKyKSZbX5x--4ET_qHx/view?usp=sharing)|
+| FurnitureDetection_8S | [Google Drive](https://drive.google.com/file/d/1GHP0myTllmi-MKUPGEyzl_IjBmWNJNgp/view?usp=sharing) |
 
 Segmenation models:
 | Model  | Link |
@@ -45,3 +46,5 @@ TrafficDetection: The Traffic Detection model detects common traffic objects. Su
 RoadSegmentation: The Road Detection model detects the road in dashcam videos and overlays it using Instance Segmentation. This model is trained on my own dataset. [Roboflow project](https://app.roboflow.com/lesley-natrop-zgywz/road-detection-segmentation/7)
 
 DollarBillDetection: The Dollar Bill Detection model recognizes different American Dollar bills. This model is trained by me. I used the dataset created by [Alex Hyams](https://universe.roboflow.com/alex-hyams-cosqx) on Roboflow. [Roboflow Project](https://universe.roboflow.com/alex-hyams-cosqx/dollar-bill-detection)
+
+FurnitureDetection: The Furniture Detection model detects several different kinds of furniture, such as tables, chairs, etc. The model is trained by me. I used the dataset created by [Roboflow 100](https://universe.roboflow.com/roboflow-100) on Roboflow. [Roboflow Project](https://universe.roboflow.com/roboflow-100/furniture-ngpea)

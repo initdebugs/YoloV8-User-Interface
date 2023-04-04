@@ -60,7 +60,12 @@ def handle_detection_page_events(event, values, window, yolo_thread, output_queu
         detection_mode = 'segment' if values['segmentation'] else 'detect'
         device = '0' if values['gpu'] else 'cpu'
         show = str(values['show']).lower()
-        command = f'yolo task={detection_mode} mode=predict save=True model="{model_path}" source="{video_path}" device={device} show={show}'
+        selected_options = values['dropdown_options']
+        hide_labels = 'True' if 'Hide labels' in selected_options else 'False'
+        hide_confidence = 'True' if 'Hide confidence' in selected_options else 'False'
+
+
+        command = f'yolo task={detection_mode} mode=predict save=True model="{model_path}" source="{video_path}" device={device} show={show} hide_labels={hide_labels} hide_conf={hide_confidence}'
 
         yolo_thread = Thread(target=execute_yolo_command, args=(command, output_queue), daemon=True)
         yolo_thread.start()

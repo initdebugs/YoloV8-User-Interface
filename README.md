@@ -33,6 +33,8 @@ Object detection models:
 | TrafficDetection_8L  | [Google Drive](https://drive.google.com/file/d/1LXTksK0M2R_JQQ6bXpetJWJl9neO4JC5/view?usp=sharing)  |
 | DollarBillDetection_8S | [Google Drive](https://drive.google.com/file/d/1VMpCFZ7lEf7ksPKyKSZbX5x--4ET_qHx/view?usp=sharing)|
 | FurnitureDetection_8S | [Google Drive](https://drive.google.com/file/d/1GHP0myTllmi-MKUPGEyzl_IjBmWNJNgp/view?usp=sharing) |
+| EarphoneDetection_8S | [Google Drive](https://drive.google.com/file/d/1Ehi8Y_KmRGJ3iN2D-oCh0gYuOOJtSuLI/view?usp=sharing) |
+| FurnitureDetection_8S | [Google Drive](https://drive.google.com/file/d/1PxWm06IqzSjgF6YA-u0-xJ53ZmhRciIL/view?usp=sharing) |
 
 Segmenation models:
 | Model  | Link |
@@ -48,3 +50,7 @@ RoadSegmentation: The Road Detection model detects the road in dashcam videos an
 DollarBillDetection: The Dollar Bill Detection model recognizes different American Dollar bills. This model is trained by me. I used the dataset created by [Alex Hyams](https://universe.roboflow.com/alex-hyams-cosqx) on Roboflow. [Roboflow Project](https://universe.roboflow.com/alex-hyams-cosqx/dollar-bill-detection)
 
 FurnitureDetection: The Furniture Detection model detects several different kinds of furniture, such as tables, chairs, etc. The model is trained by me. I used the dataset created by [Roboflow 100](https://universe.roboflow.com/roboflow-100) on Roboflow. [Roboflow Project](https://universe.roboflow.com/roboflow-100/furniture-ngpea)
+
+EarphoneDetection: The Earphone Detection model detects earphones/earbuds in picures and videos. The model is trained by me. I used the dataset created by [meta](https://universe.roboflow.com/meta-eazrn) on Roboflow. [Roboflow Project](https://universe.roboflow.com/meta-eazrn/earphone-0kaa5)
+
+ConeDetection: The Cone Detection model detects safety cones in images and videos. The model is trained by me. I used the dataset created by [Roboflow](https://universe.roboflow.com/roboflow-universe-projects). [Roboflow Project](https://universe.roboflow.com/roboflow-universe-projects/safety-cones-vfrj2)
